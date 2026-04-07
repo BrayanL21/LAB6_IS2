@@ -69,4 +69,4 @@ def test_stock_no_puede_ser_negativo():
     unidades_vendidas = 10
     stock_final = stock_inicial - unidades_vendidas
     assert stock_final >= 0, "El stock no puede quedar negativo"
-    
+  
